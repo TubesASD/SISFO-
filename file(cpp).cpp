@@ -286,3 +286,5 @@ void tampilGroup(list *l) {
     }
     getch();
 }
+
+hbhbjhbkjhbkjhbkjnjunjunnklnlknlknklnjhgkctrcjhbgyuhjblfgbjlhfdjhugkjhgfbmjhnbhdjmnldnjmhdfnhgtfhyggvfscfvdecfgtrdsgfsgf
