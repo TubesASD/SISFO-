@@ -138,6 +138,32 @@ addresslevel2 alokasiLevel2(infotypelevel2 data) {
     return p;
 }
 
+addresslevel3 alokasiLevel3(infotypelevel3 data) {
+    addresslevel3 p=(addresslevel3)malloc(sizeof(elmlistlevel3));
+    info(p)=data;
+    next(p)=nil;
+    prev(p)=nil;
+    firstlevel3(p)=nil;
+    return p;
+}
+
+addresslevel4 alokasiLevel4(infotypelevel4 data) {
+    addresslevel4 p=(addresslevel4)malloc(sizeof(elmlistlevel4));
+    info(p)=data;
+    next(p)=nil;
+    prev(p)=nil;
+    firstleve4(p)=nil;
+    return p;
+}
+
+addresslevel5 alokasiLevel5(infotypelevel5 data) {
+    addresslevel5 p=(addresslevel5)malloc(sizeof(elmlistlevel5));
+    info(p)=data;
+    next(p)=nil;
+    prev(p)=nil;
+    return p;
+}
+
 long int nipDirek(int counter,infotypeinduk data) {
     long temp=1210000;
     temp += counter;
