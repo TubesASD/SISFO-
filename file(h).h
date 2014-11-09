@@ -92,3 +92,5 @@ void createSturkturWakil(list *l,int *counter);
 void tampilGroup(list *l);
 
 #endif // FILE(H)_H_INCLUDED
+
+qwoidnqwsadnskjlandjkasnckjansckjanskjcnajksnckjasnckjasn
