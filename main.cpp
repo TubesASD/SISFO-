@@ -1,28 +1,29 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <cstring.h>
+#include <string.h>
+#include <stdlib.h>
+#include "file(h).h"
+#include "file(cpp).cpp"
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+int main() {
+    int i;
+    int pil;
+    do{
+        menuAwal();
+        cout<<"\n\n\tPilihan: "; cin>>pil;
+        switch(pil){
+            case 1:
+                loginAdmin();
+                break;
 
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+            case 2:break;
+            case 3: break;
+            default: menuAwal(); break;
+        }
+    }while(pil!=3);
+    return 0;
+}
